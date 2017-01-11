@@ -234,6 +234,7 @@
 				TargetAttributes = {
 					210542501E23830E008735B8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8ETT9956NH;
 						ProvisioningStyle = Automatic;
 					};
 					210542691E23830E008735B8 = {
@@ -500,7 +501,9 @@
 			baseConfigurationReference = A83026024D67696699061BAB /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ETT9956NH;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyondin.zhongren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,7 +515,9 @@
 			baseConfigurationReference = 82536E3FAB4B961F04570B18 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ETT9956NH;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyondin.zhongren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
