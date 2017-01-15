@@ -237,7 +237,7 @@
 					210542501E23830E008735B8 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8ETT9956NH;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -509,16 +509,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: jian yu (7XH6J6ST96)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jian yu (7XH6J6ST96)";
-				DEVELOPMENT_TEAM = 8ETT9956NH;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyondin.zhongren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f97877c3-4997-4f95-b0c1-7f1a28192ae3";
-				PROVISIONING_PROFILE_SPECIFIER = zrDevCzy;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -528,16 +528,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Demo/Demo.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: jian yu (7XH6J6ST96)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jian yu (7XH6J6ST96)";
-				DEVELOPMENT_TEAM = 8ETT9956NH;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyondin.zhongren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f97877c3-4997-4f95-b0c1-7f1a28192ae3";
-				PROVISIONING_PROFILE_SPECIFIER = zrDevCzy;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
